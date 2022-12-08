@@ -20,7 +20,7 @@ L21521 127.0.0.1:1521
 
 def generate_data():
 
-    with cx_Oracle.connect(user="etan", password="tsitcot9p", dsn="localhost:21521/XE") as conn:
+    with cx_Oracle.connect(user="e*****n", password="t****p", dsn="localhost:21521/XE") as conn:
         with conn.cursor() as cur:
             cur.execute(
             """
